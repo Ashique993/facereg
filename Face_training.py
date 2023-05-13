@@ -16,7 +16,7 @@ from PIL import Image
 import os
 
 path = "dataset"
-recognizer = cv2.LBPHFaceRecognizer_create()
+recognizer = cv2.face.LBPHFaceRecognizer_create()
 detector = cv2.CascadeClassifier(
     "FacialRecognition\\haarcascade_frontalface_default.xml"
 )
