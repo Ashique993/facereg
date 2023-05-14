@@ -12,21 +12,9 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 # iniciate id counter
 id = 0
 
-# names related to ids: example ==> Marcelo: id=1,  etc
-# names = ['None', 'Ashiq', 'None', 'Dharshenee',
-#         'Keerthana', 'KD Prince', 'Antony', 'Dharshanaa']
-# names = {'items': 1}
-# names = ['None', 'Sasikumar', 'Gopalakrishnan', 'Brindha', 'Sharath Chandhar']
-# names = ['None', 'Sharath Chandhar', 'Sharath Chandhar', 'Sharath Chandhar']
-names = [
-    "None",
-    "None",
-    "hi doctor p s s srinivasan",
-    "None",
-    "hi doctor rajhendran",
-    "hello doctor thanghavhel",
-]
-# names = ['None', 'Ashiq', 'Gowtham']
+# names related to ids: example ==> Ashiq: id=1,  etc
+
+names = ['None', 'Ashiq', 'Gowtham']
 
 # Initialize and start realtime video capture
 cam = cv2.VideoCapture(0)
